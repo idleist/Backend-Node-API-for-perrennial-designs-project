@@ -2,7 +2,6 @@ const express = require("express");
 const router = express.Router();
 
 // Database
-var db = require("../models");
 var helpers = require("../helpers/testimonials");
 
 router
